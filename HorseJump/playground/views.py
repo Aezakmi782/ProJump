@@ -12,7 +12,7 @@ from .ml_code.horse_height import horse_height
 hh = horse_height()
 
 # Loading the ML Model
-model_height = load("/Users/vishalrohila/Downloads/finalapp/HorseJump/playground/ml_code/savedModels/model_by_height.joblib")
+model_height = load("/workspaces/ProJump/HorseJump/playground/ml_code/savedModels/model_by_height.joblib")
 
 # Create your views here.
 

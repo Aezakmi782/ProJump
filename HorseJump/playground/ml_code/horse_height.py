@@ -2,7 +2,7 @@ import pandas as pd
 
 class horse_height:
 
-    horse_name = pd.read_csv('/Users/vishalrohila/Downloads/finalapp/HorseJump/playground/ml_code/Horse Data.csv', skipinitialspace = True)
+    horse_name = pd.read_csv('/workspaces/ProJump/HorseJump/playground/ml_code/Horse Data.csv', skipinitialspace = True)
     horse_name.columns = horse_name.columns.str.replace(' ', '')
     horse_name.columns = horse_name.columns.str.strip()
 
